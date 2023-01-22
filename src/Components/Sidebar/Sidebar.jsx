@@ -5,14 +5,14 @@ import React from "react"
 import SidebarCSS from "./Sidebar.module.css"
 
 // Component
-import SidebarContent from "./Content/Content"
-import SidebarHeader from "./Header/Header"
+import SidebarSearch from "./Search/Search"
+import SidebarContacts from "./Contacts/Contacts"
 
 export default function Sidebar() {
 	return (
-		<div>
-			<SidebarHeader />
-			<SidebarContent />
+		<div className={SidebarCSS.sidebar}>
+			{/* <SidebarSearch />
+			<SidebarContacts /> */}
 		</div>
 	)
 }

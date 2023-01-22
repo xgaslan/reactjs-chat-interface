@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: Poppins, sans-serif;
+}
+
+body > #root > div {
+	height: 100vh;
+}

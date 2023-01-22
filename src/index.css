@@ -3,6 +3,11 @@
 	padding: 0;
 	border: none;
 	text-decoration: none;
+    list-style: none;
+}
+
+*:focus{
+    outline: none;
 }
 
 html,
